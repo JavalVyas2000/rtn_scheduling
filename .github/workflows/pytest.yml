@@ -1,0 +1,42 @@
+name: pytest
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get install coinor-cbc
+          sudo apt-get install -y glpk-utils  
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install -e .
+          # pip install gurobipy
+          # pip install pyomo
+          # pip install matplotlib
+          # pip install pandas
+          # pip install networkx
+          # pip install scipy
+          # pip install pytest
+          # pip install openpyxl
+
+      - name: Run Pyomo script
+        run: |
+          pytest -v tests/case_4_day_test.py
+          pytest -v tests/case_24_hour_test.py
+          pytest -v tests/mixing_test.py
+          pytest -v tests/infeasible_test.py
+          pytest -v tests/recycling_test.py
+          
