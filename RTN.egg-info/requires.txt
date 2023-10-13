@@ -1,8 +1,0 @@
-gurobipy
-pyomo
-matplotlib
-pandas
-networkx
-openpyxl
-scipy
-pytest

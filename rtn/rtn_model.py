@@ -108,11 +108,10 @@ class RTN:
 
         # solve
         solver = pyo.SolverFactory(self.solver)
-        solver.options['Threads']=8
         m.res = solver.solve(m, tee=False)
         # m.pprint()
+
         m.obj.display()
-        
 
         return m
 
