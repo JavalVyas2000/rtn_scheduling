@@ -1,0 +1,24 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: rtn_scheduling
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Javal Vyas
+    email: javalvyas2000@gmail.com
+  - given-names: Daniel Ovalle
+    email: dovallev@andrew.cmu.edu
+  - given-names: Carl Laird
+    email: claird@andrew.cmu.edu
+repository-code: 'https://github.com/JavalVyas2000/rtn_scheduling'
+abstract: >-
+  This is a rtn scheduling package for batch processing
+  implemented in python using pyomo and networkx
+keywords:
+  - Resource Task Network
+  - Batch Scheduling
+license: BSD-3-Clause
