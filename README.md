@@ -1,6 +1,10 @@
 # rtn_scheduling
 
+<<<<<<< HEAD
 ![pytest](https://github.com/dovallev/rtn_scheduling/actions/workflows/pytest.yml/badge.svg) <br> 
+=======
+![pytest](https://github.com/JavalVyas2000/rtn_scheduling/actions/workflows/pytest.yml/badge.svg) <br> 
+>>>>>>> d6ac14655f00cb56af7be33789d197342384a576
 
 rtn_scheduling is a Python-based package for solving scheduling problems using the Pyomo optimization modeling language. It is designed to assist in solving scheduling problems with resource task networks as input and is aided by visualization tools such as the Gantt chart, resource levels, and the network.
 
@@ -34,4 +38,8 @@ pytest mixing_test.py
 Chapter 14 - Applications of the RTN scheduling model in the chemical industry,
 Simulation and Optimization in Process Engineering,
 Elsevier,
+<<<<<<< HEAD
 2022, https://doi.org/10.1016/B978-0-323-85043-8.00006-4
+=======
+2022, https://doi.org/10.1016/B978-0-323-85043-8.00006-4
+>>>>>>> d6ac14655f00cb56af7be33789d197342384a576
