@@ -4,7 +4,7 @@
 
 `rtn_scheduling` is a Python-based package for solving scheduling problems using the Pyomo optimization modeling language. It is designed to assist in solving scheduling problems with resource task networks as input and is aided by visualization tools such as the Gantt chart, resource levels, and the network.
 
-# Installation
+# 🚀 Installation
 
 Download or clone rtn_scheduling from this github site. 
 

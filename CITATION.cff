@@ -2,23 +2,47 @@
 # Visit https://bit.ly/cffinit to generate yours today!
 
 cff-version: 1.2.0
-title: rtn_scheduling
-message: >-
-  If you use this software, please cite it using the
-  metadata from this file.
-type: software
+message: "If you use this software, please cite it as below."
+title: "rtn_scheduling: A Pyomo-based Framework for Resource Task Network Scheduling"
 authors:
-  - given-names: Javal Vyas
+  - family-names: "Vyas"
+    given-names: "Javal"
     email: javalvyas2000@gmail.com
-  - given-names: Daniel Ovalle
+  - family-names: "Ovalle"
+    given-names: "Daniel"
     email: dovallev@andrew.cmu.edu
-  - given-names: Carl Laird
+  - family-names: "Laird"
+    given-names: "Carl D."
     email: claird@andrew.cmu.edu
-repository-code: 'https://github.com/JavalVyas2000/rtn_scheduling'
-abstract: >-
-  This is a rtn scheduling package for batch processing
-  implemented in python using pyomo and networkx
+repository-code: "https://github.com/JavalVyas2000/rtn_scheduling"
+license: BSD-3-Clause
+license-url: "https://opensource.org/licenses/BSD-3-Clause"
 keywords:
   - Resource Task Network
   - Batch Scheduling
-license: BSD-3-Clause
+  - Optimization
+  - Pyomo
+  - Gantt Chart
+  - Industrial Engineering
+abstract: >
+  rtn_scheduling is a Python-based package for solving plant scheduling problems 
+  using the Resource Task Network (RTN) formulation. It utilizes Pyomo for modeling 
+  and supports visualizations such as Gantt charts and resource profiles.
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Ovalle"
+      given-names: "Daniel"
+    - family-names: "Vyas"
+      given-names: "Javal"
+    - family-names: "Laird"
+      given-names: "Carl D."
+    - family-names: "Grossmann"
+      given-names: "Ignacio E."
+  title: "Integration of Plant Scheduling Feasibility with Supply Chain Network Under Disruptions Using Machine Learning Surrogates"
+  booktitle: "34th European Symposium on Computer Aided Process Engineering / 15th International Symposium on Process Systems Engineering"
+  publisher: "Elsevier"
+  year: 2024
+  pages: "1489–1494"
+  doi: "10.1016/b978-0-443-28824-1.50249-0"
+  url: "https://doi.org/10.1016/b978-0-443-28824-1.50249-0"
